@@ -1,0 +1,163 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Full Stack Developer</title>
+    <style>
+        body {
+            margin: 4PX;
+            background-color: #cec3c3; 
+        }
+        header {
+            background-color: #003366; 
+            color: #ffffff;
+            text-align: center;
+            padding: 12px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight:bolder;
+            text-decoration-color:aqua;
+            text-decoration-line:underline;
+            text-shadow: -1px -1px 3px #020202, 
+            2px 2px 4px #1b1b1b;
+        }
+        header, section {
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff; 
+            border-radius: 8px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+            border: 27px ridge #a1a1a1;
+        }
+        h1, h2 {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: -1px -1px 0 #020202, 1px 1px 0 #1b1b1b;
+        }
+        h2 {
+            color: #2a6478;
+            font-size: 15px;
+        }
+        p, li {
+            color: #4a4a4a; 
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        a {
+            color: #da532c; 
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #bf3e11; 
+        }
+        ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+        li::before {
+            content: "• ";
+            color: #da532c; 
+            font-size: larger;
+        }
+        .project {
+            background-color: #ffffff;
+            border-left: 5px solid #da532c;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .project-title {
+            color: #11330a;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .project-link {
+            font-size: smaller;
+            text-decoration: underline;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 35cqmax;
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            background-color: #003366; 
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 13px;
+        }
+        address {
+            color: #300130;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <p><strong>DOROTHY J. KOECH</strong></p>
+        <p><strong>ELDORET, KENYA</strong></p>
+        <p><strong>+254 755 507 684</strong></p>
+        <p><strong>employtech2@gmail.com</strong></p>
+    </header>
+    <div class="container">
+       <div>
+        <img src="./Dorothy Koech's Pic.jpeg" alt="Dorothy Koech's profile-photo" class="profile-photo">
+       </div> 
+        <section>
+            <h2>Objective</h2>
+            <p>Dedicated full-stack developer with knowledge in both front-end and back-end development. Passionate about building responsive web applications and eager to apply skills in a dynamic professional environment to solve real-world problems.</p>
+        </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Front-End:</strong> HTML5, CSS3, JavaScript (ES6+), React.js, Angular</li>
+                <li><strong>Back-End:</strong> Node.js, Express.js, MongoDB, MySQL, RESTful API development</li>
+                <li><strong>Tools:</strong> Git, GitHub, Docker, npm, yarn, webpack</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <p class="project-title">Personal Blog Platform - <span class="project-link"><a href="YourBlogPlatformLink.com">Project Link</a></span></p>
+                <p>Developed a full-featured blog platform using React for the front-end and Node.js with Express for the backend. Integrated MongoDB for data storage. Implemented authentication using JSON Web Tokens (JWT).</p>
+            </div>
+            <div class="project">
+                <p class="project-title">E-commerce Site - <span class="project-link"><a href="YourEcommerceSiteLink.com">Project Link</a></span></p>
+                <p>Designed and built a small-scale e-commerce site. Utilized Angular for the front-end and Express.js for the server-side. Integrated Stripe API for mock payments.</p>
+            </div>
+            <div class="project">
+                <p class="project-title">Task Management Tool - <span class="project-link"><a href="TaskManagementToolLink.com">Project Link</a></span></p>
+                <p>Created a responsive task management application. Front-end built with React, using Redux for state management. Connected to a MongoDB database.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Soft Skills</h2>
+            <p>Problem-solving mindset, self-motivated learner, effective communication, team collaboration.</p>
+        </section>
+        <section>
+            <h2>Interests</h2>
+            <p>Continuous learning through coding challenges, contributing to open-source projects, tech community participation, and meetups.</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Dorothy J. Koech
+    </footer>
+</body>
+</html>
